@@ -1,0 +1,13 @@
+@import 'src/styles/sass/vars';
+.card {
+}
+
+// wrap it in a class if we have multiple cards in the system
+:global {
+  .ant-card-head-title {
+    font-weight: bolder;
+    font-size: $large;
+    display: flex;
+    justify-content: center;
+  }
+}
